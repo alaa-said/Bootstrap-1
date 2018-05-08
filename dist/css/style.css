@@ -1,0 +1,73 @@
+header {
+  height: 100vh;
+  width: calc(100vw - 17px);
+  background-image: url("../imgs/intro-bg.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  vertical-align: middle;
+  color: #fff; }
+  header .table {
+    height: 100vh;
+    width: 70%;
+    display: table;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle; }
+    header .table h1 {
+      font-size: 50px; }
+  header .cell {
+    display: table-cell;
+    vertical-align: middle; }
+
+.courses {
+  background-color: #efefef; }
+
+.teachers .cont {
+  width: 60%;
+  margin: 0 auto; }
+  .teachers .cont .d-flex {
+    background-color: #f5f5f5; }
+
+.discount {
+  height: 70vh;
+  width: calc(100vw - 17px);
+  background-image: url("../imgs/downloads-bg.jpg");
+  background-position: bottom;
+  background-size: cover;
+  vertical-align: middle;
+  color: #fff; }
+  .discount .table {
+    height: 70vh;
+    width: 50%;
+    display: table;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle; }
+  .discount .cell {
+    display: table-cell;
+    vertical-align: middle; }
+    .discount .cell img {
+      margin: 5px; }
+
+.certificate {
+  background-color: #f5f5f5; }
+  .certificate h1 {
+    font-size: 50px; }
+  .certificate p {
+    font-size: 20px; }
+
+.feedback .card {
+  background-color: #f6f6f6; }
+  .feedback .card img {
+    height: 130px;
+    width: 130px;
+    margin: 0 auto; }
+
+.contact .form {
+  width: 60%;
+  margin: 0 auto; }
+  .contact .form input {
+    height: 50px; }
+  .contact .form textarea {
+    height: 200px; }
